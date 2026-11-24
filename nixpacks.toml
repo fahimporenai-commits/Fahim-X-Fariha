@@ -1,0 +1,8 @@
+[phases.setup]
+aptPkgs = ["ffmpeg", "git", "ca-certificates"]
+
+[phases.build]
+cmds = ["which ffmpeg", "ffmpeg -version"]
+
+[start]
+cmd = "npm start"
