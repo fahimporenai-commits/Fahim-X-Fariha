@@ -60,7 +60,7 @@ Module({
   aliases: [
     "pp",
     "avatar",
-    "getpp",
+    "fa",
   ],
 
   package: "tools",
