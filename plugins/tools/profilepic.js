@@ -123,8 +123,8 @@ Module({
 
         await message.send({
           text:
-            `❌ @${number} এর profile picture পাওয়া যাচ্ছে না।\n` +
-            "সম্ভবত profile picture private অথবা সেট করা নেই।",
+            `❌ @${number} এইটার 𝐏ʀᴏꜰɪʟᴇ 𝐍ᴀɪ 😌।\n` +
+            "*সালা লুচ্চা অন্যদের পিক দেখবি* 🐸",
 
           mentions: [jid],
         });
