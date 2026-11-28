@@ -1,0 +1,35 @@
+{
+  "name": "socksy",
+  "version": "1.0.0",
+  "description": "Multi-user WhatsApp socket manager for Baileys with SQL-backed auth state.",
+  "keywords": [
+    "multi-session"
+  ],
+  "author": "nightx-rebel",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {},
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "chalk": "^6.0.1",
+    "pg": "^8.16.3",
+    "pino": "^10.4.0",
+    "pino-pretty": "^13.2.0"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@x-kira/ttl",
+  "version": "1.0.0",
+  "description": "Idle session eviction tracker for RAM caches (TTL based evict + lazy reload)",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "gse": "file:../gse"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "ttl",
+    "cache",
+    "session",
+    "eviction",
+    "idle",
+    "ram"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
